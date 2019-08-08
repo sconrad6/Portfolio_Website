@@ -1,0 +1,91 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navigationBar {
+    background-color: rgb(25, 15, 49);
+    overflow: hidden;
+    position: fixed;
+    
+  }
+  
+  .navigationBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  .navigationBar a:hover {
+    background-color: rgb(197, 173, 197);
+    color:rgb(25, 15, 49);
+  }
+ 
+  .navigationBar a.active {
+    background-color: rgb(145, 40, 172);
+    color: rgb(244, 230, 246);
+  }
+
+
+
+body{
+    background-color: rgb(197, 173, 197);
+    
+}
+
+.hometown{
+    
+    border: 1px solid rgb(25, 15, 49);
+    width: 500px;
+}
+h2{
+    padding-left: 15px;
+}
+p{
+    padding : 20px;
+}
+
+.developing{
+    border: 1px solid rgb(25, 15, 49);
+    width: 500px;
+    right: 200px;
+    display: inline-block;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(25, 15, 49);
+    color: white;
+    text-align: left;
+  }
+
+  a:link{
+      color: white;
+  }
+
+  .aboutMe{
+    border: 1px solid rgb(25, 15, 49);
+    width: 500px;
+    right: 200px;
+    display: inline-block;
+  }
+
+  .contactMe{
+    border: 1px solid rgb(25, 15, 49);
+    width: 500px;
+  }
+
+  .contactMe a:link{
+      color: rgb(25, 15, 49)
+  }
+
+  .projects{
+    border: 1px solid rgb(25, 15, 49);
+    width: 500px;
+  }
